@@ -25,7 +25,8 @@ button{
     text-align: center;
     border-radius: 1.5rem;
     gap: 2rem;
-    width: 44.9rem;
+    max-width: 44.9rem;
+    margin: 2rem;
 
 }
 
