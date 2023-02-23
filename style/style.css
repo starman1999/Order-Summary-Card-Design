@@ -24,9 +24,10 @@ button{
     align-items: center;
     text-align: center;
     border-radius: 1.5rem;
-    gap: 2rem;
+    gap: 3rem;
     max-width: 44.9rem;
-    margin: 2rem;
+    margin:  2rem;
+    
 
 }
 
@@ -37,6 +38,7 @@ button{
 .text-container{
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .headline{
@@ -78,6 +80,7 @@ button{
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--clr-dark-blue);
+    
 }
 
 .change-button:hover{
