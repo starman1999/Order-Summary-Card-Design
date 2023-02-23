@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-pale-blue);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+button{
+    font-size: inherit;
+    background: none;
+    border: none;
+}
+
+.card-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5rem;
+    gap: 2rem;
+    width: 44.9rem;
+
+}
+
+.design-img{
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.headline{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--clr-dark-blue);
+}
+.paragraph{
+    font-size: 1.6rem;
+    color: var(--clr-desaturated-blue);
+    max-width: 29rem;
+ 
+}
+
+.price-section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--clr-verypale-blue);
+   border-radius: 1.5rem;
+   padding: 1.5rem;
+}
+
+.price-headline{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--clr-dark-blue);
+}
+
+.icon{
+    display: inline-block;
+    height: 4.3rem;
+    align-self: center;
+}
+
+.change-button{
+    margin-left: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--clr-dark-blue);
+}
+
+.change-button:hover{
+    color: var(--clr-desaturated-blue);
+    cursor: pointer;
+}
+
+
+.price-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-button{
+    background-color: var(--clr-bright-blue);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 1rem;
+    padding: 1.3rem 8rem;
+}
+
+.payment-button:hover{
+    background-color: var(--clr-desaturated-blue);
+    cursor: pointer;
+}
+
+.cancel-button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:var(--clr-desaturated-blue);
+    margin-bottom: 2rem;
+}
+
+.cancel-button:hover{
+    cursor: pointer;
+}
