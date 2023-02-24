@@ -101,6 +101,7 @@ button{
     color: white;
     border-radius: 1rem;
     padding: 1.3rem 8rem;
+    text-decoration: none;
 }
 
 .payment-button:hover{
